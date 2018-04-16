@@ -75,6 +75,8 @@
      <Compile Include="Assets\NavMeshComponents\NavMeshComponents-2017.2\Assets\Tests\NavMeshSurfaceModifierVolumeTests.cs" />
      <Compile Include="Assets\NavMeshComponents\NavMeshComponents-2017.2\Assets\Tests\NavMeshSurfaceTests.cs" />
      <Compile Include="Assets\Scripts\EnemyMove.cs" />
+     <Compile Include="Assets\Scripts\MouseClickController.cs" />
+     <Compile Include="Assets\Scripts\RoundManager.cs" />
      <Compile Include="Assets\Scripts\Waypoints.cs" />
      <None Include="Assets\NavMeshComponents\NavMeshComponents-2017.2\ProjectSettings\ProjectVersion.txt" />
  <Reference Include="UnityEngine.UI">

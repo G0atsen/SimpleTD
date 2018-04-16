@@ -19,7 +19,7 @@ public class EnemyMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (waypointIndex < Waypoints.points.Length-1) {
-			if (Vector3.Distance (this.transform.position, currentTarget) <= 0.45f) {
+			if (Vector3.Distance (this.transform.position, currentTarget) <= 0.25f) {
 				waypointIndex += 1;
 				currentTarget = Waypoints.points [waypointIndex].position;
 				currentTarget.y = 1f;

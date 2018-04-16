@@ -1,9 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Waypoints.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RoundManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\EnemyMove.cs" Line="21" Column="18" />
-      <File FileName="Assets\Scripts\Waypoints.cs" Line="17" Column="36" />
+      <File FileName="Assets\Scripts\EnemyMove.cs" Line="18" Column="2" />
+      <File FileName="Assets\Scripts\Waypoints.cs" Line="9" Column="17" />
+      <File FileName="Assets\Scripts\MouseClickController.cs" Line="5" Column="52" />
+      <File FileName="Assets\Scripts\RoundManager.cs" Line="8" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
