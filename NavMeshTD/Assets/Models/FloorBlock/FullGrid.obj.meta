@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: 747ba16d236d12743a54b31e018a27f4
-timeCreated: 1523872781
+guid: edc5a1ea101f28e46a822dade1d6db4b
+timeCreated: 1523878446
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: floorBlock
+    100000: FullGrid
     100002: //RootNode
-    400000: floorBlock
+    400000: FullGrid
     400002: //RootNode
     2100000: palette
-    2300000: floorBlock
-    3300000: floorBlock
-    4300000: floorBlock
+    2300000: FullGrid
+    3300000: FullGrid
+    4300000: FullGrid
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -43,19 +43,19 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.2
-    meshCompression: 3
+    globalScale: 0.5
+    meshCompression: 0
     addColliders: 0
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
-    weldVertices: 0
+    weldVertices: 1
     preserveHierarchy: 0
     indexFormat: 0
     secondaryUVAngleDistortion: 8
