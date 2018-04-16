@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NavMeshComponents-2017.2\NavMeshComponents-2017.2\Assets\Examples\Scripts\MeshTool.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Waypoints.cs">
     <Files>
-      <File FileName="Assets\NavMeshComponents-2017.2\NavMeshComponents-2017.2\Assets\Examples\Scripts\MeshTool.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnemyMove.cs" Line="21" Column="18" />
+      <File FileName="Assets\Scripts\Waypoints.cs" Line="17" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
