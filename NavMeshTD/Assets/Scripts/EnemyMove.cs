@@ -7,15 +7,22 @@ public class EnemyMove : MonoBehaviour {
 
 	public NavMeshAgent agent;
 
+	private float health;
 	private int waypointIndex = 0;
 	private Vector3 currentTarget;
 	private Waypoints pointSet;
 	// Use this for initialization
 	void Start () {
+		health = 30f;
 		pointSet = GameObject.FindGameObjectWithTag ("Waypoints").GetComponent<Waypoints> ();
 		currentTarget = pointSet.points[0].position;
 		currentTarget.y = 1f;
 		agent.SetDestination (currentTarget);
+	}
+
+	void TakeDamage(float damage){
+		health -= damage;
+		print (health);
 	}
 	
 	// Update is called once per frame

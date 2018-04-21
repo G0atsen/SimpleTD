@@ -8,4 +8,7 @@ public static class RoundManager {
 									// phase 2 is selection
 									// phase 3 is enemies spawn
 									// phase 1 begins again
+	public static int towersToPlace = 5;
+
+	public static int enemies = 0;
 }
